@@ -1,0 +1,465 @@
+/* ..................................................header */
+.header__container{
+    padding-top: 15px;
+}
+
+.header__link {
+    white-space: nowrap;
+    text-decoration: none;
+    color: #222222;
+}
+
+.header__list {
+    list-style: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #222222;
+}
+
+.img-btn-len {
+    margin-bottom: 7px;
+    margin-left: 5px;
+}
+
+.language-button {
+    white-space: nowrap;
+    border: none;
+    background-color: white;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: right;
+}
+
+.language-button-top {
+    float: right;
+}
+
+.language-top-ru_en {
+    padding: 0 3px;
+}
+
+.header__language {
+    padding-right: 30px;
+    text-align: right;
+}
+
+.bottom-call {
+    white-space: nowrap;
+    text-align: right;
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.contact-info {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.header__email {
+    padding-top: 35px;
+}
+
+.contact-mail {
+    font-weight: 500;
+    font-size: 20px;
+    color: #69A54D;
+    text-decoration: none;
+}
+
+.language-top {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.language-option.active {
+    color: #69A54D;
+}
+
+.header__logo-nav {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-right: 20px;
+}
+
+/* ..............................................................main_1 */
+.menu__list {
+    list-style: none;
+}
+.menu__item {
+    text-align: center;
+}
+
+.menu__link {
+    font-weight: 600;
+    font-size: 20px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.hero {
+    background-image: url(/img/bg.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero__container-info {
+    padding-top: 19px;
+}
+
+.serch {
+    text-align: right;
+}
+
+.main-title-header {
+    font-weight: 800;
+    font-size: 108px;
+    text-align: center;
+    color: #FFFFFFB2;
+    margin-top: 200px;
+    margin-bottom: 23px;
+}
+.main-text-header {
+    font-weight: 500;
+    font-size: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 200px;
+}
+.text-main-number {
+    font-weight: 700;
+    font-size: 96px;
+    text-align: right;
+    color: #FFFFFFB2;
+    padding-bottom: 20px;
+}
+
+.main-number-img {
+    padding-bottom: 50px;
+}
+
+.main-number-img-center {
+    padding-top: 30px;
+}
+
+/* ..............................................................main_2 */
+.section-offset {
+    margin-top: 40px;
+}
+
+.item-num {
+    font-weight: 700;
+    color: #CDBD84;
+    font-size: 80px;
+    text-align: left;
+}
+.item-num span {
+    font-size: 24px;
+}
+
+.item-num-text {
+    font-size: 18px;
+}
+
+.subtitle_about {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: left;
+    margin-bottom: 39px;
+}
+
+.about__bottom {
+    margin-top: 71px;
+}
+
+.subtitle_about-text {
+    font-weight: 400;
+    font-size: 18px;
+}
+/* ..............................................................main_3 */
+
+
+
+.card-img {
+    width: 300px;
+    height: 240px;
+    object-fit: cover;
+}
+
+.subtitle_stages {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: left;
+    color: #222222;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+a.card {
+    text-decoration: none;
+    color: inherit;
+}
+
+.subtitle_stages {
+    margin-bottom: 48px;
+}
+
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Разделяет заголовок и иконку */
+    background-color: rgba(0, 0, 0, 0.2); /* Полупрозрачный черный фон */
+    color: #ffffff; /* Цвет текста для лучшей читаемости */
+}
+
+.card-icon {
+    align-self: flex-start; /* Прижимает иконку к левому нижнему углу */
+    margin-top: 10px;
+}
+
+
+/* ..............................................................main_4 */
+.subtitle_stages-sta{
+    margin-top: 40px;
+}
+
+.subtitle_stages {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: left;
+    color: #222222;
+    margin-bottom: 48px;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+a.card {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Разделяет заголовок и иконку */
+    background-color: rgba(0, 0, 0, 0.2); /* Полупрозрачный черный фон */
+    color: #ffffff; /* Цвет текста для лучшей читаемости */
+}
+
+.card-icon {
+    align-self: flex-start; /* Прижимает иконку к левому нижнему углу */
+    margin-top: 10px;
+}
+
+.subtitle_about-text {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.roow-card-images {
+    margin-bottom: 62px;
+}
+
+/* ..............................................................main_5 */
+.subtitle_sta{
+    margin-top: 40px;
+}
+
+.subtitle_stages {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: left;
+    color: #222222;
+    margin-bottom: 48px;
+}
+
+a.card {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-title-t {
+    font-weight: 600;
+    font-size: 22px;
+    color: #69A54D;
+}
+
+.card-title-number {
+    font-weight: 700;
+    font-size: 72px;
+    color: #FFFFFF80;
+    align-self: flex-end; /* Прижимает к нижнему краю */
+    padding-top: 20%;
+}
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 16px;
+}
+.roow-card-images .card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Разделяет заголовок и иконку */
+    background-color: rgba(0, 0, 0, 0); /* Полупрозрачный черный фон */
+    color: #ffffff; /* Цвет текста для лучшей читаемости */
+}
+
+/* ..............................................................main_6 */
+
+.subtitle_stages {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: left;
+    color: #222222;
+    margin-bottom: 48px;
+}
+
+a.card {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-title-t {
+    font-weight: 600;
+    font-size: 22px;
+    color: #69A54D;
+    margin-bottom: 10px;
+}
+
+.card-title-number {
+    font-weight: 700;
+    font-size: 72px;
+    color: #FFFFFF80;
+    align-self: flex-end; /* Прижимает к нижнему краю */
+    padding-top: 20%;
+}
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.text-date {
+    font-weight: 600;
+    font-size: 14px;
+    color: #CAC1A0;
+}
+
+/* ..............................................................main_7-forms */
+
+
+
+.background-forms {
+    background-color: #7F9D64;
+}
+
+.text-title-form {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 52px;
+    padding-top: 75px;
+    font-size: 40px;
+}
+
+.btn-text-info {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+.text-form-p {
+    color: #FFFFFF;
+
+}
+
+.btn-info-text {
+    margin-bottom: 107px;
+}
+
+/* ..............................................................footer-1 */
+
+.footer__list {
+    white-space: nowrap;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer__link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #222222;
+}
+
+.footer__container-top {
+    padding-top: 70px;
+    margin-bottom: 70px;
+}
+
+.footer__container{
+    background-color: #E8DEBA47;
+}
+hr {
+    margin: 0;
+    padding: 0;
+}
+/* ..............................................................footer-2 */
+
+
+.footer-ico {
+    margin-bottom: 10px;
+}
+
+.footer__container-main {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.footer__container {
+    background-color: #E8DEBA47;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #222222;
+}
+
+/* ..............................................................footer-3 */
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #222222;
+}
+
+.footer__container-bot {
+    margin-bottom: 40px;
+}
+

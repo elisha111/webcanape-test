@@ -1,0 +1,391 @@
+/* ..................................................header */
+
+/* Мобильные устройства */
+@media (max-width: 767px) {
+    .language-top, 
+    .language-button {
+        font-size: 14px;
+    }
+}
+
+/* Средние устройства (планшеты) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .contact-info, 
+    .language-top, 
+    .language-button {
+        font-size: 14px;
+    }
+}
+
+/* ..............................................................main_1 */
+
+
+/* Мобильные устройства */
+@media (max-width: 767px) {
+    .hero__container-info {
+        padding-right: 20px;
+    }
+    .main-title-header {
+        margin-top: 82px;
+        margin-bottom: 11px;
+        font-size: 25px;
+    }
+    .main-text-header {
+        padding-bottom: 62px;
+        font-size: 15px;
+
+    }
+    .text-main-number {
+        font-size: 48px;
+    }
+}
+
+/* Средние устройства (планшеты) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .hero__container-info {
+        padding-right: 10px;
+    }
+    .main-title-header {
+        margin-top: 120px;
+        margin-bottom: 12px;
+        font-size: 57px;
+    }
+    .main-text-header {
+        padding-bottom: 118px;
+        font-size: 20px;
+    }
+    .text-main-number {
+        font-size: 64px;
+    }
+}
+
+/* ..............................................................main_2 */
+
+/* Мобильные устройства */
+@media (min-width: 320px) { 
+    .about__bottom {
+        margin-top: 26px;
+    }
+    .subtitle_about-text {
+        font-size: 14px;
+    }
+    .subtitle_about {
+        font-size: 26px;
+        text-align: center;
+        margin-bottom: 33px;
+    }
+    .item-num {
+        font-size: 48px;
+        text-align: end;
+    }
+    .item-num span {
+        font-size: 18px;
+    }
+    .item-num-text {
+        font-size: 14px;
+    }
+}
+
+/* Планшеты */
+@media (min-width: 768px) { 
+    .subtitle_about-text {
+        font-size: 16px;
+    }
+    .subtitle_about {
+        font-size: 38px;
+        text-align: left;
+    }
+    .item-num {
+        font-size: 72px;
+        text-align: left;
+    }
+    .item-num span {
+        font-size: 20px;
+    }
+    .item-num-text {
+        font-size: 16px;
+    }
+}
+
+/* ПК */
+@media (min-width: 1200px) { 
+    .subtitle_about-text {
+        font-size: 18px;
+    }
+    .subtitle_about {
+        font-size: 48px;
+    }
+    .item-num {
+        font-size: 80px;
+    }
+    .item-num span {
+        font-size: 24px;
+    }
+    .item-num-text {
+        font-size: 18px;
+    }
+}
+/* ..............................................................main_3 */
+
+
+
+/* Мобильные устройства */
+@media (max-width: 767px) { 
+    .subtitle_stages {
+        margin-bottom: 35px;
+        text-align: center; /* Добавлено выравнивание по центру для родителя */
+    }
+    
+    .subtitle_stages {
+        font-size: 24px;
+        text-align: center; /* Убедитесь, что текст по центру */
+        margin: 0; /* Убираем отступы */
+        padding: 0; /* Убираем внутренние отступы */
+        margin-bottom: 35px;
+    }
+    .card-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Средние устройства (планшеты) */
+@media (min-width: 768px) and (max-width: 1199px) { 
+    .subtitle_stages {
+        margin-bottom: 38px;
+    }
+    .subtitle_stages {
+        font-size: 30px;
+    }
+    .card-title {
+        font-size: 15px;
+    }
+    .card-img {
+        width: 217px;
+        height: 174px;
+    }
+}
+
+/* ..............................................................main_4 */
+
+
+/* Мобильные устройства */
+@media (max-width: 767px) { 
+    .roow-card-images {
+        margin-bottom: 28px;
+    }
+    
+    .subtitle_about-text {
+        font-size: 14px;
+    }
+    
+    .subtitle_stages {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    
+    .card-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Средние устройства (планшеты) */
+@media (min-width: 768px) and (max-width: 1199px) { 
+    .roow-card-images {
+        margin-bottom: 42px;
+    }
+    
+    .subtitle_about-text {
+        font-size: 16px;
+    }
+    
+    .subtitle_stages {
+        font-size: 30px;
+        margin-bottom: 38px;
+    }
+    
+    .card-title {
+        font-size: 15px;
+    }
+    
+    .card-img {
+        width: 217px;
+        height: 174px;
+    }
+}
+
+/* Экстрабольшие устройства (ПК) */
+@media (min-width: 1200px) { 
+    .subtitle_about-text {
+        font-size: 18px;
+    }
+}
+
+/* ..............................................................main_5 */
+
+
+/* Мобильные устройства */
+@media (max-width: 767px) { 
+    .card-text {
+        font-size: 14px;
+    }
+    
+    .card-title-number {
+        font-size: 48px;
+        padding-top: 14%;
+    }
+    
+    .card-title-t {
+        font-size: 18px;
+    }
+    
+    .subtitle_stages {
+        font-size: 24px;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+}
+
+/* Средние устройства (планшеты) */
+@media (min-width: 768px) and (max-width: 1199px) { 
+    .card-text {
+        font-size: 14px;
+    }
+    
+    .card-title-number {
+        font-size: 48px;
+        padding-top: 15%;
+    }
+    
+    .card-title-t {
+        font-size: 18px;
+    }
+    
+    .subtitle_stages {
+        font-size: 30px;
+        margin-bottom: 38px;
+    }
+}
+
+/* ..............................................................main_6 */
+
+
+/* Мобильные устройства */
+@media (max-width: 767px) { 
+    .card-text {
+        font-size: 14px;
+    }
+    
+    .card-title-number {
+        font-size: 48px;
+        padding-top: 14%;
+    }
+    
+    .card-title-t {
+        font-size: 18px;
+    }
+    
+    .subtitle_stages {
+        font-size: 24px;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+}
+
+/* Средние устройства (планшеты) */
+@media (min-width: 768px) and (max-width: 1199px) { 
+    .card-text {
+        font-size: 14px;
+    }
+    
+    .card-title-number {
+        font-size: 48px;
+        padding-top: 15%;
+    }
+    
+    .card-title-t {
+        font-size: 18px;
+    }
+    
+    .subtitle_stages {
+        font-size: 30px;
+        margin-bottom: 38px;
+    }
+}
+
+/* ..............................................................main_7-forms */
+
+
+/* Мобильные устройства */
+@media (max-width: 767px) { 
+    .btn-info-text {
+        margin-bottom: 72px;
+    }
+    .text-title-form {
+        font-size: 24px;
+        margin-bottom: 50px;
+        padding-top: 51px;
+    }
+}
+
+/* Средние устройства (планшеты) */
+@media (min-width: 768px) and (max-width: 1199px) { 
+    .btn-info-text {
+        margin-bottom: 81px;
+    }
+    .text-title-form {
+        font-size: 30px;
+        margin-bottom: 50px;
+        padding-top: 72px;
+    }
+}
+
+/* ..............................................................footer-1 */
+
+/* ..............................................................footer-2 */
+
+
+/* Мобильные устройства */
+@media (max-width: 767px) {
+    .footer-ico {
+        text-align: center;
+    }
+    .footer-text {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+/* Средние устройства (планшеты) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .footer-text {
+        font-size: 14px;
+    }
+}
+
+/* ..............................................................footer-3 */
+
+
+/* Мобильные устройства */
+@media (max-width: 767px) {
+    .footer__container-bot {
+        margin-top: 36px;
+    }
+    .footer-text {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+/* Средние устройства (планшеты) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .footer__container-bot {
+        margin-top: 29px;
+    }
+    .footer-text {
+        font-size: 14px;
+        text-align: center;
+    }
+}
